@@ -119,7 +119,9 @@ public class MyFrame {
                             outputdosValores.setText(inputdosValores.getText());
                         }
                     } else {
-
+                        ConversaoDistancias Conversao = new ConversaoDistancias();
+                        resultado = Conversao.converte(indexSelecionadoIn, indexSelecionadoOut, valorSaida);
+                        outputdosValores.setText(resultado.toString());
                     }
                     final int resposta = JOptionPane.showConfirmDialog(myJPanel, "Deseja continuar?",
                             "Continuar conversoes?",
