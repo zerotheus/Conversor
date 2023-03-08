@@ -1,4 +1,4 @@
-<h1  aling= "center" >Conversor de Moedas W.I.P</h1>
+<h1  aling= "center" >Conversor de Moedas</h1>
 
 <h2 aling = "center">Do desenvolvimento</h2>
 
